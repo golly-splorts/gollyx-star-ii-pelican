@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export GOLLYX_STAR_II_PELICAN_HOME="${HOME}/golly/gollyx-star-ii-pelican"
+export GOLLYX_STAR_II_PELICAN_HOME="${HOME}/golly/pelican/gollyx-star-ii-pelican"
 export GOLLYX_UI_PORT="8888"
 export GOLLYX_API_PORT="8989"
 
