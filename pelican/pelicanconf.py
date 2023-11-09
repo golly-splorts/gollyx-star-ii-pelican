@@ -1,7 +1,7 @@
 import os, re, glob
 
 
-GOLLYX_STAR_II_PELICAN_VERSION = "299.2.0"
+GOLLYX_STAR_II_PELICAN_VERSION = "299.3.dev0"
 
 
 # Yes, this is supposed to be UI not URI...
@@ -13,10 +13,7 @@ HERE = os.path.abspath(os.path.dirname(__file__))
 
 stage = os.environ.get('GOLLYX_STAGE', '')
 
-if stage=="integration":
-    SITENAME = u'GollyX456'
-else:
-    SITENAME = u'GollyX'
+SITENAME = u'Star II Cup'
 
 PATH = 'content'
 THEME = 'gollyx-star-ii-pelican-theme'
